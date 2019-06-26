@@ -19,7 +19,7 @@ for i in range(1,number + 1) :
         line.append(numberone[i])
     elif len(txt) == 2 :
         if i < 13 :
-           txtlist.append(numberone[i])
+           line.append(numberone[i])
         elif 12 < i < 20 :
            line.append(numberten[int(txt[1])])
            line.append(numberdigit[0])
